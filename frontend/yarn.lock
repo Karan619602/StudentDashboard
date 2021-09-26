@@ -4620,6 +4620,23 @@
     "jsbn" "~0.1.0"
     "safer-buffer" "^2.1.0"
 
+"ecomemrce-website@file:..":
+  "resolved" "file:.."
+  "version" "1.0.0"
+  dependencies:
+    "bcryptjs" "^2.4.3"
+    "body-parser" "^1.19.0"
+    "cloudinary" "^1.27.0"
+    "cookie-parser" "^1.4.5"
+    "dotenv" "^10.0.0"
+    "express" "^4.17.1"
+    "jsonwebtoken" "^8.5.1"
+    "mongoose" "^5.13.5"
+    "multer" "^1.4.3"
+    "multer-storage-cloudinary" "^4.0.0"
+    "nodemon" "^2.0.12"
+    "validator" "^13.6.0"
+
 "ee-first@1.1.1":
   "integrity" "sha1-WQxhFWsK4vTwJVcyoViyZrxWsh0="
   "resolved" "https://registry.npmjs.org/ee-first/-/ee-first-1.1.1.tgz"
