@@ -7,7 +7,7 @@
     "start": "SET nodemon backend/index.js",
     "dev": "SET NODE_ENV=DEVELOPMENT& nodemon backend/index.js",
     "prod": "SET NODE_ENV=PRODUCTION& nodemon backend/index.js",
-    "heroku-postbuild" : "NPM_CONFIG_PRODUCTION=false && npm install --prefix frontend && npm run build --prefix frontend"
+    "heroku-postbuild" : "npm install --prefix frontend && npm run build --prefix frontend"
   },
   "author": "",
   "license": "ISC",
