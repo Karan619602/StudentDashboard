@@ -4,7 +4,7 @@
   "description": "Mern",
   "main": "index.js",
   "scripts": {
-    "start": "SET nodemon backend/index.js",
+    "start": "SET node backend/index.js",
     "dev": "SET NODE_ENV=DEVELOPMENT& nodemon backend/index.js",
     "prod": "SET NODE_ENV=PRODUCTION& nodemon backend/index.js",
     "heroku-postbuild" : "npm install --prefix frontend && npm run build --prefix frontend"
