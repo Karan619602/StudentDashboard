@@ -2,6 +2,7 @@ const express = require('express')
 const app=express();
 const mongoose = require('mongoose')
 const cookieParser = require('cookie-parser');
+const path =require('path')
 app.use(express.json());
 app.use(cookieParser())
 if (process.env.NODE_ENV !== 'PRODUCTION') require('dotenv').config({ path: 'backend/.env' })
