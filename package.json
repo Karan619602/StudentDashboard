@@ -1,7 +1,7 @@
 {
   "name": "ecomemrce-website",
   "version": "1.0.0",
-  "description": "",
+  "description": "Mern",
   "main": "index.js",
   "scripts": {
     "start": "SET nodemon backend/index.js",
